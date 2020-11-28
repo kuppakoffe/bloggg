@@ -17,24 +17,12 @@ function Index() {
       <Helmet>
         <title>Sumit</title>
       </Helmet>
-      <h1>Sumit</h1>
+      <h1>Last week this happened!</h1>
       <h2>
-        Deployed with{' '}
-        <a
-          href="https://vercel.com/docs"
-          target="_blank"
-          rel="noreferrer noopener"
-        >
-          Vercel
-        </a>
-        !
+       Hey there! I tried something exciting or found something exciting, I write about it here.
       </h2>
-      <p>
-        Site under construction.
-      </p>
       <br />
-      <h2>The date according to Node.js (TypeScript) is:</h2>
-      <p>{date ? date : 'Loading date...'}</p>
+      
     </main>
   );
 }
